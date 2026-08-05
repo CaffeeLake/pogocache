@@ -1,4 +1,4 @@
-FROM alpine:3.22
+FROM alpine:3.24
 
 COPY entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/entrypoint.sh
